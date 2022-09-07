@@ -22,9 +22,9 @@ function Weather(props) {
         return ( 
         <div className="container">
             <h2 className=" text-white py-5"> Please enter a city name! </h2> 
-            <p className = "text-white" > <b> Mariya Harizanova </b><br></br >< a href = "https://github.com/mharizanova8703/my-app" > Open source on GitHub </a>  and hosted on <a href="https://deft-moxie-33a60b.netlify.app"></a>
+            <p className = "text-white" > <b> Mariya Harizanova </b><br></br ><a href = "https://github.com/mharizanova8703/my-app" > Open source on GitHub </a>  and hosted on <a href="https://deft-moxie-33a60b.netlify.app"></a>
            </p>
-        <a href = "https://deft-moxie-33a60b.netlify.app" > </a>
+        <a href="https://deft-moxie-33a60b.netlify.app"> </a>
             </div>
            
             
@@ -83,6 +83,7 @@ export default function Search() {
         location = { location}
         country = {country}/>
         <Icon iconif = {icon}/></div>
+    
         </div>
     
     );

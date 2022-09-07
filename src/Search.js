@@ -21,9 +21,12 @@ function Weather(props) {
     } else {
         return ( 
         <div className="container">
-            <h2 className="py-5"> Please enter a city name! </h2> 
-            <p>This homework is created by <b>Mariya Harizanova</b><br></br> < a href = "https://github.com/mharizanova8703/my-app"> Open source on GitHub </a> and hosted on<a href=""></a></p >
+            <h2 className=" text-white py-5"> Please enter a city name! </h2> 
+            <p className = "text-white" > <b> Mariya Harizanova </b><br></br >< a href = "https://github.com/mharizanova8703/my-app" > Open source on GitHub </a>  and hosted on <a href="https://deft-moxie-33a60b.netlify.app"></a>
+           </p>
+        <a href = "https://deft-moxie-33a60b.netlify.app" > </a>
             </div>
+           
             
         );
     }
